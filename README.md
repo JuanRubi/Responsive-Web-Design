@@ -1,6 +1,6 @@
 # Responsive Web Design
 
-The goal of this project is to build a web page using responsive web design characteristics in mind.
+The goal of this project is to build a web page while keeping characteristics of responsive web design in mind.
 
 ## Technologies
 - HTML5
