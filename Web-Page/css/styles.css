@@ -1,18 +1,22 @@
 
-/* -------------------------        MASTER STULES       ---------------------*/
+/* -------------------------        MASTER STYLES       ---------------------*/
+
+html {
+    font-size: 100%;
+}
 
 body {
     margin: 0;
-    font-size: 18px;
+    font-size: 1rem;
     font-family: 'Lato', sans-serif;
     color: #2e354f;
 }
 
+/*------------------------        FONT STYLES        ------------------------*/
+
 h1, h2, strong {
     font-weight: 900;
 }
-
-/*------------------------        FONT STYLES        ------------------------*/
 
 h1 {
     font-size: 36px;
@@ -25,7 +29,7 @@ h2 {
 }
 
 ul {
-    font-size: 1em;       
+    font-size: 1.5rem;       
     /* 1em = 100% of parent font-size (section-one or body if no section-one style) */
 }
 
