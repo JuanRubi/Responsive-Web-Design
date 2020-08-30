@@ -1,0 +1,72 @@
+
+/*-------------------------     MASTER STYLES       -------------------------*/
+
+body {
+    background: white;
+    margin: 0 auto;      
+    max-width: 1500px;
+
+    color: #606060;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+/*--------------------------        FONT STYLES     -------------------------*/
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #303030;
+}
+
+h1 span {
+    color: rgb(17, 17, 122);
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+/*-------------------------     CLASS STYLES        -------------------------*/
+
+.container {
+    width: 95%;
+    max-width: 1500px;
+    margin: 0 auto;     /* Keeps our container centered on the page. */
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1em 0;      /* 1em top/bottom 0 left/right */
+}
+
+.col-color {
+    background: rgb(11, 1, 58);
+    padding: 1em;
+    color: rgb(238, 226, 226);
+}
+
+.col-width1 {
+    width: 20%;
+}
+
+.col-width2 {
+    width: 50%;
+}
+
+.col-width3 {
+    width: 75%;
+}
