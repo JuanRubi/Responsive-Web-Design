@@ -2,7 +2,7 @@
 /*-------------------------     MASTER STYLES       -------------------------*/
 
 body {
-    background: white;
+    background: pink;
     margin: 0 auto;      
     max-width: 1500px;
 
@@ -10,6 +10,22 @@ body {
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
 }
+
+/* From a min width of 800px and bigger this change takes effect*/
+@media (min-width: 800px) {
+    body {                      /* Need to specify the element that will be affected */
+        background: lightgray;
+    }
+
+}
+
+/* At 1200px this takes over. Note: ORDER IS IMPORTANT!!! */
+@media (min-width: 1200px) {
+    body {                   
+        background: white;
+    }
+}
+
 
 /*--------------------------        FONT STYLES     -------------------------*/
 
@@ -27,11 +43,11 @@ h2 {
     font-size: 1.5rem;
 }
 
+/*-------------------------     LAYOUT STYLES        -------------------------*/
+
 p {
     margin-top: 0;
 }
-
-/*-------------------------     CLASS STYLES        -------------------------*/
 
 .container {
     width: 95%;
@@ -53,6 +69,12 @@ p {
     margin: 1em 0;      /* 1em top/bottom 0 left/right */
 }
 
+@media (max-width: 600px) {
+    .columns {
+        flex-direction: column;     /* Makes columns stack on each other for small screens. */
+    }
+}
+
 .col-color {
     background: rgb(11, 1, 58);
     padding: 1em;
@@ -70,3 +92,12 @@ p {
 .col-width3 {
     width: 75%;
 }
+
+@media (max-width: 600px) {
+    .col-width1,
+    .col-width2,
+    .col-width3 {
+        width: 100%;        /* Makes column take 100% of width available for small screens. */
+    }
+}
+
