@@ -10,49 +10,66 @@ body {
 .header {
     background: #F8F8F8;
     text-align: center;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
-
-    height: 13em;
+    padding: 2em 0;
 }
 
 .titles {
-    width: 25%;
+    width: 30%;
     margin: 0 auto;
 }
 
 .main-title {
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-family: 'Lora', serif;
+    font-weight: 400;
     color: #143774;
-    margin-bottom: 0;
+    margin: 0;
     padding-top:3rem;
 }
 
 .subtitle {
-    font-size: .85rem;
+    font-size: 0.95rem;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     color: #1792D2;
     margin-top: 0;
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 /*---------------------     NAVIGATION BAR STYLES       ---------------------*/
 
 .nav-bar {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1rem;
-    width: 25%;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
+    padding: 0;
     
 }
 
 .nav-link a{
+    text-decoration: none;
     color: #606060;
+    margin: 0 1em;
+    padding: .25em;
+}
+
+.nav-link a:hover,
+.nav-link a:focus {
+    color: #1792D2;
+}
+
+.active-nav-link a{
+    border-bottom: 1px solid #606060;  
+}
+
+.active-nav-link a:hover {
+    color: #606060;             /* Prevents the current page link from changing color when hovering over it. */
 }
 
