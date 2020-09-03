@@ -109,3 +109,56 @@ header {
 .active-nav-link a:hover {
     color: #606060;             /* Prevents the current page link from changing color when hovering over it. */
 }
+
+/*-----------------------       CONTENT LAYOUT STYLES      ------------------*/
+
+.content {
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #606060;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+    border: 1px solid black;
+    display: flex;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #143774;
+}
+
+.continue {
+    font-size: .9rem;
+    font-weight: 700;
+    color: #1792D2;
+}
+
+.headline-post {
+    border-bottom: 1px solid grey;
+}
+
+.mainPostPic {
+    width: 44rem;
+}
+
+.post {
+    margin: 3rem 0;
+    display: flex;
+}
+
+.postPic {
+    width: 12.375rem;
+    height: 15.125rem;
+}
+
+/*-------------------------     SIDEBAR STYLES      -------------------------*/
+
+.sideBar {
+    width: 45%;
+    border: 1px solid blueviolet;
+}
+
