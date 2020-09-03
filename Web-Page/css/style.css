@@ -1,0 +1,111 @@
+
+/*--------------------------      MASTER STYLES       -----------------------*/
+
+body {
+    margin: 0 auto;
+}
+
+/*-------------------------     LAYOUT STYLES       -------------------------*/
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;  
+}
+
+@media (max-width: 760px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+
+/*-------------------------        HEADER STYLES     ------------------------*/
+
+header {
+    background: #F8F8F8;
+    padding: 2em 0;
+}
+
+.titles {
+    width: 45%;
+}
+
+.main-title {
+    font-size: 2rem;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    margin: 0;
+    padding-top:3rem;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #1792D2;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+@media (max-width: 760px) {
+    .titles {
+        width: 100%;
+    }
+
+    .main-title {
+        text-align: center;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+}
+
+/*---------------------     NAVIGATION BAR STYLES       ---------------------*/
+
+.nav-bar {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+@media (max-width: 760px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin: .75rem 0;
+    }
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #606060;
+    margin-left: 2em;
+    padding: .25em 0;
+}
+
+.nav-link a:hover,
+.nav-link a:focus {
+    color: #1792D2;
+}
+
+.active-nav-link a{
+    border-bottom: 2px solid #606060;  
+}
+
+.active-nav-link a:hover {
+    color: #606060;             /* Prevents the current page link from changing color when hovering over it. */
+}

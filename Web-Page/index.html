@@ -3,49 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Responsive Wed Design</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Navigation Bar</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h1>The CSS Unit - em</h1>
+            <div class="titles">
+                <h1 class="main-title">Living the simple life</h1>
+                <p class="subtitle">A BLOG EXPLORING MINIMALISM IN LIFE</h6>
+            </div>
+    
+            <!--------------------      MAVIGATION BAR      ----------------------->
+    
+            <nav class="nav-bar">
+                <div class="nav-link active-nav-link">
+                    <a href="#">HOME</a>
+                </div>
+    
+                <div class="nav-link">
+                    <a href="#">ABOUT ME</a>
+                </div>
+    
+                <div class="nav-link">
+                    <a href="#">RECENT POSTS</a>
+                </div>
+            </nav>
         </div>
     </header>
 
-    <!--------------------------------     SECTION ONE     ------------------------------------>
-    <section class="section-one">
-        <div class="container">
-            <h2>Putting ems to use</h2>
+    <div class="content">
+        <div class="main-body">
+            <div class="headline-post">
+                <div>
+                    <img class="mainPostPic" src="./images/mainPostPic.jpg">
+                </div>
+                
+                <div>
+                    July 23, 2019 | 3 comments
 
-            <ul>
-                <li>Mathematics</li>
-                <li>Software engineering</li>
-                <li>Physics</li>
-            </ul>
+                    <h3>Finding simplicity in life</h3>
+                    <p>
+                       <strong>Life can get complicated really quickly</strong>, but it doesn't
+                       have to be! There are many ways to simplify your life, <a href="#">a few
+                       of which we've explored in the past</a>. This week we're taking a bit of
+                       a different approach though, in how you can find simplicity in the life
+                       you are already living. 
+                    </p>
 
+                    <p>CONTINUE READING</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div>
+                    <img class="postPic" src="./images/clockCrop.jpeg">
+                    July 19, 2019 | 3 comments
+                </div>
+                
+                <div>
+                    <h3>Decluttering</h3>
+
+                    <p>CONTINUE READING</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div>
+                    <img class="postPic" src="./images/cleanOffice.jpeg">
+                    July 12, 2019 | 3 comments
+                </div>
+                
+                <div>
+                    <h3>Simplicity and Work</h3>
+                    <p>
+                        Work is often a major source of stress. People get frustrated, it ruins
+                        their relationship with others and it leads to burnout. By keeping your
+                        work life as simple as possible, it will help balance everything out.
+                    </p>
+
+                    <p>CONTINUE READING</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div>
+                    <img class="postPic" src="./images/plant.jpg">
+                    July 3, 2019 | 3 comments
+                </div>
+                
+                <div>
+                    <h3>Simple Decorations</h3>
+                    <p>
+                        A home isn't a home until you've decorated a little. People either don't
+                        decorate, or they go overboard and it doesn't have the impact they were
+                        hoping for. Staying simple will help draw the eye where you want it to and
+                        make things pop like never before.
+                    </p>
+
+                    <p>CONTINUE READING</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sideBar">
+            <div class="link1 link-color">
+
+            </div>
+
+            <div class="link2 link-color">
+
+            </div>
 
         </div>
-    </section>
+    </div>
 
-    <!--------------------------------     SECTION TWO     ------------------------------------>
-    <section class="section-two">
-        <div class="container">
-            <h2>Section Two Title.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veniam eaque,
-               nihil vitae, explicabo beatae quibusdam architecto porro nisi sequi quos
-               officia consequatur nesciunt asperiores cumque officiis. Id, beatae suscipit?
-            </p>
-            <p>Lorem <a href="#">ipsum dolor sit amet</a>, consectetur adipisicing elit. Non 
-               veniam eaque, nihil vitae, explicabo beatae quibusdam architecto porro nisi sequi 
-               quos <strong>officia consequatur nesciunt asperiores cumque officiis</strong>. 
-               Id, beatae suscipit?
-            </p>
-            <a href="#" class="btn btn-accent">contact us</a>
-            <a href="#" class="btn btn-white">more information</a>
-        </div>
-    </section>    
+    <footer>
+        <p>Living the Simple Life</p>
+    </footer>
 </body>
 
 </html>
