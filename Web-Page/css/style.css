@@ -116,11 +116,10 @@ header {
     font-size: 1.1rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
-    color: #606060;
+    color: #707070;
     margin: 0 auto;
     width: 90%;
     max-width: 1000px;
-    border: 1px solid black;
     display: flex;
 }
 
@@ -129,21 +128,43 @@ h3 {
     font-size: 1.5rem;
     font-weight: 500;
     color: #143774;
+
+    margin: 0;
 }
 
 .continue {
     font-size: .9rem;
     font-weight: 700;
+    letter-spacing: .2em;
     color: #1792D2;
 }
+
+/*---------------------     MAIN ARTICLE STYLES     -------------------------*/
 
 .headline-post {
     border-bottom: 1px solid grey;
 }
 
 .mainPostPic {
-    width: 44rem;
+    width: 95%;
 }
+
+.main-article {
+    margin-right: 2rem;
+    line-height: 1.5em;
+}
+
+.main-article a {
+    color: #1792D2;
+}
+
+.main-article .date {
+    margin: 1.4rem 0;
+}
+
+
+
+/*--------------------      REGULAR ARTICLE STYLES      ---------------------*/
 
 .post {
     margin: 3rem 0;
@@ -155,6 +176,17 @@ h3 {
     height: 15.125rem;
 }
 
+.date {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+    margin: .3rem 0;
+}
+
+.article {
+    margin: 0 1.8rem;
+    line-height: 1.5em;
+}
+
 /*-------------------------     SIDEBAR STYLES      -------------------------*/
 
 .sideBar {
@@ -162,3 +194,20 @@ h3 {
     border: 1px solid blueviolet;
 }
 
+/*-------------------------     FOOTER STYLES       -------------------------*/
+
+footer {
+    background: #143774;
+    height: 10rem;
+
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #b0b0b0;
+
+    padding: 4rem;
+}
