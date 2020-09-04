@@ -140,10 +140,16 @@ h3 {
 }
 
 .continue {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 700;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     color: #1792D2;
+    text-decoration: none;
+}
+
+.continue:hover,
+.continue:focus {
+    color: #1d52ad;
 }
 
 /*---------------------     MAIN ARTICLE STYLES     -------------------------*/
@@ -151,6 +157,7 @@ h3 {
 .headline-post {
     margin-top: 3rem;
     margin-right: 3rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid grey;
 }
 
@@ -203,7 +210,7 @@ h3 {
     text-decoration: none;
     text-align: left;
     font-weight: 700;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     color: #143774;
 }
 
@@ -230,25 +237,25 @@ h3 {
 }
 
 .link1 h3 {
-    font-size: .9rem;
+    font-size: 0.9rem;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-.border {
+.title-btm-border {
     border-bottom: 1px solid #d8d8d8;
 }
 
 .sidePic {
     height: 5rem;
     width: 100%;
-    margin: .5rem 0;
+    margin: 0.5rem 0;
 
 }
 .aboutMePic {
     height: 7rem;
     width: 100%;
-    margin: .5rem 0;
+    margin: 0.5rem 0;
 }
 
 /*-------------------------     FOOTER STYLES       -------------------------*/
