@@ -203,17 +203,28 @@ h3 {
     border: 15px solid #ededed;
 }
 
-.link2 {
-    margin: 3rem 0;
-    padding: 1rem 1.5rem;
-    text-align: center;
+.link1 {
+    margin-top: 3rem;
+    padding: 1rem 1.2rem;
 }
 
-.link2 h3 {
+.link2 {
+    margin: 3rem 0;
+    padding: 1rem 1.2rem;
+    text-align: left;
+}
+
+.sideBar h3 {
     font-size: 1rem;
     text-align: left;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+}
+
+.link1 h3 {
+    font-size: .9rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .border {
@@ -221,7 +232,13 @@ h3 {
 }
 
 .sidePic {
-    height: 4rem;
+    height: 5rem;
+    width: 100%;
+    margin: .5rem 0;
+
+}
+.aboutMePic {
+    height: 7rem;
     width: 100%;
     margin: .5rem 0;
 }
