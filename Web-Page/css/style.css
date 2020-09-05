@@ -16,7 +16,7 @@ body {
     justify-content: space-between;  
 }
 
-@media (max-width: 775px) {
+@media (max-width: 800px) {
     .container {
         flex-direction: column;
     }
@@ -53,7 +53,7 @@ header {
     width: 100%;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 800px) {
     .titles {
         width: 100%;
     }
@@ -81,7 +81,7 @@ header {
     padding: 0;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 800px) {
     .nav-bar {
         flex-direction: column;
     }
@@ -108,12 +108,12 @@ header {
 }
 
 .active-nav-link a:hover {
-    color: #606060;             /* Prevents the current page link from changing color when hovering over it. */
+    color: #606060;      /* Prevents the current page link from changing color when hovering over it. */
 }
 
 /*-----------------------       CONTENT LAYOUT STYLES      ------------------*/
 
-.content {
+.content {              /* This encapsulates our main body and side bar */
     font-size: 1.1rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
@@ -124,7 +124,7 @@ header {
     display: flex;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 800px) {
     .content {
         flex-direction: column;
     }
@@ -152,7 +152,7 @@ h3 {
     color: #1d52ad;
 }
 
-/*---------------------     MAIN ARTICLE STYLES     -------------------------*/
+/*--------------------     HEADLINE ARTICLE STYLES     ----------------------*/
 
 .headline-post {
     margin-top: 3rem;
@@ -161,7 +161,7 @@ h3 {
     border-bottom: 1px solid grey;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 800px) {
     .headline-post {
         margin-right: 0;
     }
@@ -208,7 +208,7 @@ h3 {
     line-height: 1.5em;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 800px) {
     .post {
         flex-direction: column;
     }
@@ -235,7 +235,8 @@ h3 {
 /*-------------------------     SIDEBAR STYLES      -------------------------*/
 
 .sideBar {
-    width: 50%;
+    width: 60%;
+    min-width: 11rem;
 }
 
 .sideBarTitle{
@@ -250,6 +251,7 @@ h3 {
     border: 15px solid #ededed;
 }
 
+/* link1 and link2 are the the side bar boxes containing the content. */
 .link1 {
     margin-top: 3rem;
     padding: 1rem 1.2rem;
@@ -292,7 +294,7 @@ h3 {
     margin: 1rem 0.5rem 0 0;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 800px) {
     .sideBar {
         width: 100%;
     }
@@ -325,5 +327,12 @@ footer p {
     font-weight: 400;
     color: #b0b0b0;
 
-    padding: 4rem;
+    padding: 4rem 0 0 0 ;
+}
+
+.copyright {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: -0.7rem;
+    padding: 0;
 }
