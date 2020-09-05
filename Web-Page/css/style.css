@@ -161,6 +161,12 @@ h3 {
     border-bottom: 1px solid grey;
 }
 
+@media (max-width: 775px) {
+    .headline-post {
+        margin-right: 0;
+    }
+}
+
 .mainPostPic {
     width: 100%;
 }
@@ -187,6 +193,8 @@ h3 {
 .postPic {
     width: 12.375rem;
     height: 15.125rem;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .date {
@@ -198,6 +206,30 @@ h3 {
 .article {
     margin: 0 1.8rem;
     line-height: 1.5em;
+}
+
+@media (max-width: 775px) {
+    .post {
+        flex-direction: column;
+    }
+
+    .postPic {
+        width: 100%;
+        margin-top: 0.3rem;
+        object-position: 90% 90%;
+    }
+
+    .centerPic {
+        object-position: center;
+    }
+
+    .article {
+        margin: -1.6rem 0;
+    }
+
+    .date-position {
+        text-align: right;
+    }
 }
 
 /*-------------------------     SIDEBAR STYLES      -------------------------*/
@@ -237,7 +269,7 @@ h3 {
 }
 
 .link1 h3 {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -249,13 +281,33 @@ h3 {
 .sidePic {
     height: 5rem;
     width: 100%;
-    margin: 0.5rem 0;
-
+    margin: 1rem 0.5rem 0 0;
+    object-fit: cover;
 }
+
 .aboutMePic {
     height: 7rem;
     width: 100%;
-    margin: 0.5rem 0;
+    object-fit: cover;
+    margin: 1rem 0.5rem 0 0;
+}
+
+@media (max-width: 775px) {
+    .sideBar {
+        width: 100%;
+    }
+
+    .sidePic {
+        height: 13rem;
+    }
+
+    .aboutMePic {
+        height: 13rem;
+    }
+
+    .link1 {
+        margin-top: 1.2rem;
+    }
 }
 
 /*-------------------------     FOOTER STYLES       -------------------------*/
