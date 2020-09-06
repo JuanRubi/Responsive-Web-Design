@@ -312,6 +312,19 @@ h3 {
     }
 }
 
+/*------------------------      ABOUT ME STYLES     -------------------------*/
+
+.aboutPic {
+    max-height: 22rem;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    color: #1792D2;
+}
+
 /*-------------------------     FOOTER STYLES       -------------------------*/
 
 footer {
